@@ -6,8 +6,8 @@ const App = () => {
   const [ name, setName] = useState("");
 
   const handleChange = (e) => {
-    setName(e.target.value.trim());
-    console.log(e.target.value);
+    setName(e.target.value);
+    // console.log("Current Name:", e.target.value.trim()); // Log the current name
   }
   
   
